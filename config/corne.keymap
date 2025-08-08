@@ -37,10 +37,10 @@
 
             label = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6   &kp N7    &kp N8          &kp N9     &kp N0            &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &kp LEFT  &kp UP          &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LSHFT   &sys_reset    &trans        &trans        &trans        &bootloader     &trans   &trans    &kp DOWN_ARROW  &trans     &kp EQUAL         &kp NON_US_BACKSLASH
-                                        &bt BT_CLR    &none         &kp SPACE       &kp RET  &mo 2     &kp RALT
+&kp TAB         &kp N1        &kp N2          &kp N3        &kp N4        &kp N5          &kp N6   &kp N7    &kp N8          &kp N9     &kp N0            &kp BSPC
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &kp LEFT  &kp UP          &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LSHFT       &sys_reset    &bt BT_CLR_ALL  &trans        &trans        &bootloader     &trans   &trans    &kp DOWN_ARROW  &trans     &kp EQUAL         &kp NON_US_BACKSLASH
+                                              &trans        &none         &kp SPACE       &kp RET  &mo 2     &kp RALT
             >;
         };
 
